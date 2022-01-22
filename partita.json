@@ -1,124 +1,128 @@
-        {
-            "tournament":{
-                "name":"Liga Pro",
-                "slug":"liga-pro",
-                "category":{
-                    "name":"Russia",
-                    "slug":"russia",
-                    "sport":{
-                        "name":"Table tennis",
-                        "slug":"table-tennis",
-                        "id":20
-                    },
-                    "id":1554,
-                    "flag":"russia",
-                    "alpha2":"RU"
+{
+    "tournament": {
+        "name": "Liga Pro",
+        "slug": "liga-pro",
+        "category": {
+            "name": "Russia",
+            "slug": "russia",
+            "sport": {
+                "name": "Table tennis",
+                "slug": "table-tennis",
+                "id": 20
+            },
+            "id": 1554,
+            "flag": "russia",
+            "alpha2": "RU"
+        },
+        "uniqueTournament": {
+            "name": "Liga Pro",
+            "slug": "liga-pro",
+            "category": {
+                "name": "Russia",
+                "slug": "russia",
+                "sport": {
+                    "name": "Table tennis",
+                    "slug": "table-tennis",
+                    "id": 20
                 },
-                "uniqueTournament":{
-                    "name":"Liga Pro",
-                    "slug":"liga-pro",
-                    "category":{
-                        "name":"Russia",
-                        "slug":"russia",
-                        "sport":{
-                            "name":"Table tennis",
-                            "slug":"table-tennis",
-                            "id":20
-                        },
-                        "id":1554,
-                        "flag":"russia","alpha2":"RU"
-                    },
-                    "userCount":3155,
-                    "id":15006,
-                    "hasEventPlayerStatistics":false
-                },
-                "priority":0,"id":78895
+                "id": 1554,
+                "flag": "russia",
+                "alpha2": "RU"
             },
-            "customId":"vwMcsJWQc",
-            "status":{
-                "code":100,
-                "description":"Ended",
-                "type":"finished"
-            },
-            "winnerCode":2,
-            "homeTeam":{
-                "name":"Klavdenkov A.",
-                "slug":"klavdenkov-alexander",
-                "shortName":"Klavdenkov A.",
-                "userCount":968,
-                "nameCode":"KAL",
-                "national":false,
-                "type":1,
-                "id":343570,
-                "subTeams":[],
-                "teamColors":{
-                    "primary":"#52b030",
-                    "secondary":"#52b030",
-                    "text":"#ffffff"
-                }
-            },
-            "awayTeam":{
-                "name":"Yudin A.",
-                "slug":"yudin-anton",
-                "shortName":"Yudin A.",
-                "userCount":179,
-                "nameCode":"YAN",
-                "national":false,
-                "type":1,
-                "id":354834,
-                "subTeams":[],
-                "teamColors":{
-                    "primary":"#52b030",
-                    "secondary":"#52b030",
-                    "text":"#ffffff"
-                }
-            },
-            "homeScore":{
-                "current":0,
-                "display":0,
-                "period1":11,
-                "period2":8,
-                "period3":9,
-                "normaltime":0
-            },
-            "awayScore":{
-                "current":3,
-                "display":3,
-                "period1":13,
-                "period2":11,
-                "period3":11,
-                "normaltime":3
-            },
-            "time":{
-                "currentPeriodStartTimestamp":1642786808
-            },
-            "changes":{
-                "changes":[
-                    "status.code",
-                    "status.description",
-                    "status.type",
-                    "homeScore.normaltime",
-                    "awayScore.current",
-                    "awayScore.display",
-                    "awayScore.period3",
-                    "awayScore.normaltime",
-                    "time.currentPeriodStart"
-                ],
-                "changeTimestamp":1642786812
-            },
-            "hasGlobalHighlights":false,
-            "id":10082157,
-            "startTimestamp":1642785300,
-            "slug":"yudin-klavdenkov",
-            "periods":{
-                "current":"Match",
-                "period1":"1st set",
-                "period2":"2nd set",
-                "period3":"3rd set",
-                "period4":"4th set",
-                "period5":"5th set",
-                "period6":"6th set",
-                "period7":"7th set"
-            },
-            "finalResultOnly":false
+            "userCount": 3161,
+            "id": 15006,
+            "hasEventPlayerStatistics": false
+        },
+        "priority": 0,
+        "id": 78895
+    },
+    "customId": "gqRbsqAPc",
+    "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+    },
+    "winnerCode": 2,
+    "homeTeam": {
+        "name": "Petrov V.",
+        "slug": "petrov-vladimir",
+        "shortName": "Petrov V.",
+        "gender": "M",
+        "userCount": 313,
+        "nameCode": "PET",
+        "disabled": false,
+        "national": false,
+        "type": 1,
+        "id": 230806,
+        "subTeams": [],
+        "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
         }
+    },
+    "awayTeam": {
+        "name": "Innazarov A.",
+        "slug": "innazarov-alexey",
+        "shortName": "Innazarov A.",
+        "userCount": 145,
+        "nameCode": "IAL",
+        "national": false,
+        "type": 1,
+        "id": 351266,
+        "subTeams": [],
+        "teamColors": {
+            "primary": "#52b030",
+            "secondary": "#52b030",
+            "text": "#ffffff"
+        }
+    },
+    "homeScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 5,
+        "period2": 7,
+        "period3": 10,
+        "normaltime": 0
+    },
+    "awayScore": {
+        "current": 3,
+        "display": 3,
+        "period1": 11,
+        "period2": 11,
+        "period3": 12,
+        "normaltime": 3
+    },
+    "time": {
+        "currentPeriodStartTimestamp": 1642844309
+    },
+    "changes": {
+        "changes": [
+            "status.code",
+            "status.description",
+            "status.type",
+            "homeScore.normaltime",
+            "awayScore.current",
+            "awayScore.display",
+            "awayScore.period3",
+            "awayScore.normaltime",
+            "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1642844315
+    },
+    "hasGlobalHighlights": false,
+    "id": 10084603,
+    "startTimestamp": 1642842900,
+    "slug": "innazarov-petrov",
+    "periods": {
+        "current": "Match",
+        "period1": "1st set",
+        "period2": "2nd set",
+        "period3": "3rd set",
+        "period4": "4th set",
+        "period5": "5th set",
+        "period6": "6th set",
+        "period7": "7th set"
+    },
+    "finalResultOnly": false
+}
